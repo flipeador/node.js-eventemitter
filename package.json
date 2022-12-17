@@ -1,0 +1,25 @@
+{
+  "name": "@flipeador/node.js-eventemitter",
+  "description": "Stores listener functions and emits events.",
+  "version": "1.0.0",
+  "keywords": [
+    "javascript",
+    "node-js",
+    "async-await",
+    "event-emitter"
+  ],
+  "license": "gpl-3.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flipeador/node.js-eventemitter.git"
+  },
+  "author": "Flipeador (https://github.com/flipeador)",
+  "bugs": {
+    "url": "https://github.com/flipeador/node.js-eventemitter/issues"
+  },
+  "homepage": "https://github.com/flipeador/node.js-eventemitter#readme"
+}
