@@ -165,6 +165,7 @@ class EventEmitter
     emit(event, args, onError)
     {
         const listeners = this.listeners(event);
+        if (!listeners.length) return null;
         if (!(args instanceof Array))
             args = args === undefined ? [] : [args];
         const data = { emitter: this, results: [], args };
